@@ -1,0 +1,14 @@
+{
+  "name": "express-js-server-side-framework-mayen007",
+  "version": "1.0.0",
+  "description": "Week 2 Express.js RESTful API starter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "uuid": "^13.0.0"
+  }
+}

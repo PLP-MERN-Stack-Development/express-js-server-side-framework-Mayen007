@@ -5,6 +5,7 @@ This assignment focuses on building a RESTful API using Express.js, implementing
 ## Assignment Overview
 
 You will:
+
 1. Set up an Express.js server
 2. Create RESTful API routes for a product resource
 3. Implement custom middleware for logging, authentication, and validation
@@ -23,6 +24,17 @@ You will:
    ```
    npm start
    ```
+
+Try it (once the server is running):
+
+- Open a browser or use curl to visit the root endpoint:
+
+  - Browser: http://localhost:3000/
+  - curl (PowerShell):
+
+    curl http://localhost:3000/
+
+  The root endpoint should return: Hello World!
 
 ## Files Included
 
@@ -59,4 +71,4 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [Express.js Documentation](https://expressjs.com/)
 - [RESTful API Design Best Practices](https://restfulapi.net/)
-- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) 
+- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)

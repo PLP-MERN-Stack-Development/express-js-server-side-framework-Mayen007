@@ -41,8 +41,9 @@ let products = [
 ];
 
 // Root route
+// Root route (Hello World)
 app.get('/', (req, res) => {
-  res.send('Welcome to the Product API! Go to /api/products to see all products.');
+  res.send('Hello World!');
 });
 
 // TODO: Implement the following routes:
